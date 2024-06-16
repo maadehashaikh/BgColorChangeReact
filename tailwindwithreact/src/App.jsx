@@ -5,7 +5,7 @@ function App() {
   const [color,setColor] = useState("olive");
   return (
     <>
-    
+     {color}
      <div className='w-full h-screen' style={{backgroundColor:color}}>
      <h1 className='w-full p-20'>Welcome to BackGround Changer !! </h1>
       <div className='fixed flex flex-wrap justify-center bottom-12 insert-x-0 px-2'>
